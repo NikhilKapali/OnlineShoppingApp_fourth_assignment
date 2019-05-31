@@ -7,8 +7,8 @@
     tools:context=".Views.Additem"
     android:background="@drawable/gradient_2">
     <ImageView
-        android:layout_width="200dp"
-        android:layout_height="200dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:id="@+id/iv_item"
         android:layout_marginLeft="100dp"/>
     <Button
@@ -17,48 +17,48 @@
         android:text="Select Image"
         android:id="@+id/btn_selectimg"
         android:layout_below="@+id/iv_item"
-        android:layout_margin="10dp"/>
+        />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Upload Image"
         android:id="@+id/btn_upimg"
         android:layout_below="@+id/btn_selectimg"
-        android:layout_margin="10dp"/>
+      />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter Item name"
         android:id="@+id/et_itemname"
         android:layout_below="@id/btn_upimg"
-        android:layout_margin="10dp"/>
+       />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter Item Price"
         android:id="@+id/et_itemprice"
         android:layout_below="@+id/et_itemname"
-        android:layout_margin="10dp"/>
+       />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Item Image name"
         android:id="@+id/tv_itemimgname"
         android:layout_below="@+id/et_itemprice"
-        android:layout_margin="10dp"/>
+       />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter Item Description"
         android:id="@+id/et_itemdesc"
         android:layout_below="@+id/tv_itemimgname"
-        android:layout_margin="10dp"/>
+       />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Insert Item"
         android:id="@+id/btn_uploaditem"
         android:layout_below="@+id/et_itemdesc"
-        android:layout_margin="10dp"/>
+       />
 
 </RelativeLayout>
