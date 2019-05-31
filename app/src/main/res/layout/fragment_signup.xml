@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.SignupFrag"
+    android:background="@drawable/gradient_2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register yourself now!!!"
+            android:id="@+id/tv_title"
+
+            android:layout_marginTop="150dp"
+            android:gravity="center"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_ufname"
+            android:hint="Enter Your Firstname"
+            android:layout_below="@+id/tv_title"
+            android:layout_margin="10sp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_ulname"
+            android:hint="Enter Your lastname"
+            android:layout_below="@+id/et_ufname"
+            android:layout_margin="10sp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_username"
+            android:hint="Enter your username"
+            android:layout_below="@+id/et_ulname"
+            android:layout_margin="10sp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_password"
+            android:hint="Enter your password"
+            android:layout_below="@+id/et_username"
+            android:layout_margin="10sp"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up "
+            android:id="@+id/btn_signup"
+            android:layout_below="@id/et_password"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+</FrameLayout>
